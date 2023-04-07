@@ -1,0 +1,117 @@
+:root {
+    yes: true; 
+}
+
+.time_visual {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 27px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    border: 5px double #000000;
+    border-radius: 0px 0px 0px 0px;
+    padding: 10px;
+    max-width: 100%;
+}
+
+#agtimes {
+    display: flex;
+}
+
+.ag_time {
+    margin: 5px;
+    padding: 5px;
+}
+
+.splits {
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    border: solid black 1px;
+    justify-content: space-between;
+    margin: 3px;
+}
+
+.splits p {
+    padding: 2px;
+    margin: 10px;
+}
+
+.bow-data {
+    max-width: 25%;
+    min-width: 25%;
+}
+
+#data {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+#display {
+    display: flex;
+    flex-direction: row;
+}
+
+#wolf-data div {
+    background-color: turquoise;
+    border: 5px outset #9C8B8B;
+}
+
+#void-data div {
+    background-color: plum;
+    border: 5px outset #9C8B8B;
+
+}
+
+#lightning-data div {
+    background-color:deepskyblue;
+    border: 5px outset #9C8B8B;
+
+}
+
+#fire-data div {
+    background-color: red;
+    border: 5px outset #9C8B8B;
+
+}   
+
+#gums {
+    display: none;
+    flex-direction: row;
+    margin: 5px;
+    width: 100%;
+    justify-content: center;
+}
+
+.gums {
+    display: flex;
+    flex-direction: row;
+    width: 24.8%;
+    border: solid black 1px;
+}
+
+.gums img {
+    width: 20%;
+}
+
+#agtimes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#agtimes h3 {
+    border: solid 1px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.split-name {
+    font-weight: bold;
+}
